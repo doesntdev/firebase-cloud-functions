@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
     res.send("Hello world")
 }) 
 
-app.post('/email', (req, res) => {
+app.post('/posttest', (req, res) => {
     res.send(req.body)
 })
 
